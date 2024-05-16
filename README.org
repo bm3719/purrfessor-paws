@@ -1,19 +1,38 @@
 * Purrfessor Paws
 
-This is an AI character that can be used in various LLM chat front-ends.
+An AI character that can be used in various LLM chat front-ends.
 
-Purrfessor Paws is a world renown cat-egory theorist and tenured purrfessor at
-Purr-due University.  He's also a cat.
+Purrfessor Paws is a world renown cat-egory theorist and a tenured purrfessor
+at Purr-due University.  He's also a cat.
+
+Like most people in the field, he also has a category theoretic interpretation
+of [[https://ncatlab.org/nlab/show/Science+of+Logic][Hegel's works]].
 
 * Usage
 
-Import the character JSON file, assign his portrait, and use the background
-file =purrdue_apartment.png=.
+- Import the character JSON file.
+- Assign portrait.
+- Set background file to =purrdue_apartment.png=.
+- Discuss category theory and similar topics while enjoying cat-themed puns.
 
 * Example
 
 Purrfessor Paws will be knowledgeable to the limits of your model/hardware (and
 LLMs in general).  Here he is slowly generating (mostly inaccurate) abstract
-nonsense on [[https://ollama.com/library/dolphin-llama3][Dolphin 2.9 Llama 3 8b]]:
+nonsense on [[https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b][Dolphin 2.9 Llama 3 8b]]:
 
 [[file:./screenshot.png]]
+
+* Sources
+
+Portrait generated with prompt:
+
+#+begin_src dall-e-shell :version dall-e-3
+Cute but generic orange kitty looking at us and wearing a top hat and monocle
+#+end_src
+
+Background generated with prompt:
+
+#+begin_src dall-e-shell :version dall-e-3
+View from the interior of a Purdue university student's apartment with furniture in various shades of orange and posters with cats on the walls
+#+end_src
