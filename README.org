@@ -1,0 +1,19 @@
+* Purrfessor Paws
+
+This is an AI character that can be used in various LLM chat front-ends.
+
+Purrfessor Paws is a world renown cat-egory theorist and tenured purrfessor at
+Purr-due University.  He's also a cat.
+
+* Usage
+
+Import the character JSON file, assign his portrait, and use the background
+file =purrdue_apartment.png=.
+
+* Example
+
+Purrfessor Paws will be knowledgeable to the limits of your model/hardware (and
+LLMs in general).  Here he is slowly generating (mostly inaccurate) abstract
+nonsense on [[https://ollama.com/library/dolphin-llama3][Dolphin 2.9 Llama 3 8b]]:
+
+[[file:./screenshot.png]]
