@@ -8,13 +8,6 @@ at Purr-due University.  He's also a cat.
 Like most people in the field, he also has a category theoretic interpretation
 of [[https://ncatlab.org/nlab/show/Science+of+Logic][Hegel's works]].
 
-* Usage
-
-- Import the character JSON file.
-- Assign portrait.
-- Set background file to =purrdue_apartment.png=.
-- Discuss category theory and similar topics while enjoying cat-themed puns.
-
 * Example
 
 Purrfessor Paws will be knowledgeable to the limits of your model/hardware (and
@@ -22,6 +15,18 @@ LLMs in general).  Here he is slowly generating (mostly inaccurate) abstract
 nonsense on [[https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b][Dolphin 2.9 Llama 3 8b]]:
 
 [[file:./screenshot.png]]
+
+* Usage
+
+For use with a GUI web-based client like TavernAI/SillyTavern:
+
+- Import the character JSON file, =Purrfessor Paws.JSON=
+- Assign portrait to =Purrfessor Paws.png=.
+- Set background file to =purrdue_apartment.png=.
+- Discuss category theory and similar topics while enjoying cat-themed puns.
+
+Alternatively, you can inject the contents of =purrfessor_paws.json= into the
+system message of your client, e.g., GPTel.
 
 * Sources
 
